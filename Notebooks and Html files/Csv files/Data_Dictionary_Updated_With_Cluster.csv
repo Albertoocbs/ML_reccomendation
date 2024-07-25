@@ -1,0 +1,29 @@
+,Name,Table,Description
+0,active_customer ,commercial_activity,Client activity indicator in our application
+1,entry_channel,commercial_activity ,Customer acquisition channel
+2,entry_date,commercial_activity,Date on which first easyMoney contract was signed
+3,segment,commercial_activity,Customer business segment
+4,age ,sociodemographic,Customer age
+5,country_id ,sociodemographic,Country of residence of the client
+6,deceased,sociodemographic,Deceased index. N/S
+7,gender,sociodemographic ,Gender
+8,region_code ,sociodemographic ,Customer's province of residence (for ES)
+9,salary ,sociodemographic,Household gross income
+10,credit_card ,products ,Credit cards
+11,debit_card,products ,Debit card
+12,em_account_p,products ,easyMoney+ account
+13,em_account_pp,products ,easyMoney++ account
+14,em_acount,products ,easyMoney account
+15,emc_account,products ,easyMoney Crypto account
+16,funds ,products ,Investment funds
+17,loans ,products ,Loans
+18,long_term_deposit,products ,Long term deposits
+19,mortgage,products ,Mortgage
+20,payroll ,products ,payroll
+21,payroll_account ,products ,Account awarded with a bonus due to payroll
+22,pension_plan,products ,Pension plan
+23,securities ,products ,Securities
+24,short_term_deposit, products ,Short-term deposits
+25,pk_cid,pk ,Customer identifier
+26,pk_partition ,pk ,Data ingestion date
+27,cluster,EasyMoney_Segmentation,Customer segmentation identifier
